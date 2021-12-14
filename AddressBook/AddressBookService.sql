@@ -30,6 +30,10 @@ update AddressBook
 set PhoneNumber='4545454545'
 where FirstName='Captain'
 
+--UC5-Delete Contact
+delete AddressBook 
+where FirstName='Hulk'
+
 
 
 
