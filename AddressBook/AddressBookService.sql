@@ -23,4 +23,13 @@ insert into AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Em
 ('Zombie','Annie','GR-Road','Chennai','TamilNadu',500001,'6666666666','Zombie@gamil.com'),
 ('Captain','America','GG-Road','Thirur','Kerala',500002,'5555555555','Captain@gamil.com')
 
+select * from AddressBook 
+
+--UC4-Edit Contact
+update AddressBook 
+set PhoneNumber='4545454545'
+where FirstName='Captain'
+
+
+
 
