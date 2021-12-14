@@ -13,3 +13,14 @@ create table AddressBook
 	PhoneNumber varchar(20),
 	Email varchar(50)
 )
+
+--UC3-Insert Contacts
+insert into AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email) values
+('Venu','Attla','RG-Road','Hyderabad','Telangana',500039,'8896587468','Venu706@gamil.com'),
+('Gopal','Reddy','MG-Road','Hyderabad','Telangana',501039,'9999999999','Gopal@gamil.com'),
+('Iron','Man','GM-Road','Bangalore','Karnataka',500009,'8888888888','Iron@gamil.com'),
+('Hulk','Jhon','RR-Road','Kolkata','WestBengal',500000,'7777777777','Hulk@gamil.com'),
+('Zombie','Annie','GR-Road','Chennai','TamilNadu',500001,'6666666666','Zombie@gamil.com'),
+('Captain','America','GG-Road','Thirur','Kerala',500002,'5555555555','Captain@gamil.com')
+
+
