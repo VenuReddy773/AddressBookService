@@ -38,7 +38,9 @@ where FirstName='Hulk'
 select * from AddressBook 
 where City='Hyderabad' or State='Kerala' 
 
-
+--UC7-Count Of AddressBook By State And City
+select count(*),State,City from AddressBook 
+group by State,City
 
 
 
