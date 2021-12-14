@@ -42,6 +42,13 @@ where City='Hyderabad' or State='Kerala'
 select count(*),State,City from AddressBook 
 group by State,City
 
+--UC8-Sorting Names
+select * from AddressBook 
+where City='Hyderabad'
+order by(FirstName)
+
+
+
 
 
 
