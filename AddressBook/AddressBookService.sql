@@ -34,6 +34,12 @@ where FirstName='Captain'
 delete AddressBook 
 where FirstName='Hulk'
 
+--UC6-Retrieve Person By City Or State
+select * from AddressBook 
+where City='Hyderabad' or State='Kerala' 
+
+
+
 
 
 
